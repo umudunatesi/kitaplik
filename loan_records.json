@@ -1,0 +1,10 @@
+[
+  {
+    "studentName": "Ahmet Yılmaz",
+    "bookTitle": "Suç ve Ceza",
+    "borrowDate": "2025-09-01T00:00:00.000Z",
+    "returnDate": "2025-09-10T00:00:00.000Z",
+    "isReturned": true
+  }
+
+]

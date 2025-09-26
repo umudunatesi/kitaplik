@@ -1,0 +1,30 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "loans",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isReturned", "order": "ASCENDING" },
+        { "fieldPath": "borrowDate", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "loans",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "borrowDate", "order": "DESCENDING" },
+        { "fieldPath": "returnDate", "order": "ASCENDING" },
+        { "fieldPath": "isReturned", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "admins",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "username", "order": "ASCENDING" },
+        { "fieldPath": "password", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

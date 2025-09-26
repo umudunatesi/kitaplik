@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "369170877451",
+    "project_id": "otokutuphane-5d32a",
+    "storage_bucket": "otokutuphane-5d32a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369170877451:android:f7741e2698842127054b0e",
+        "android_client_info": {
+          "package_name": "com.company.otokutuphane"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOesyXWnnr4qh9nq_-QalQUks4k6Vlozc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
