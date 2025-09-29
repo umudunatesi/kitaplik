@@ -3,23 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <script>
-        // Dynamic base href for GitHub Pages
-        var path = window.location.pathname;
-        var isGitHubPages = path.includes('.github.io');
-        
-        if (isGitHubPages) {
-            var repoName = path.split('/')[1];
-            var base = document.createElement('base');
-            base.href = '/' + repoName + '/';
-            document.head.appendChild(base);
-        } else {
-            var base = document.createElement('base');
-            base.href = '/';
-            document.head.appendChild(base);
-        }
-    </script>
-    <title>Your App Title</title>
+    <base href="/kitaplik/">
+    <title>Kitaplik Uygulaması</title>
     
     <link rel="manifest" href="manifest.json">
     <script src="flutter.js" defer></script>
